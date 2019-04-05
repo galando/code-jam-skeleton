@@ -2,7 +2,6 @@ package cj
 
 import java.io._
 
-import scala.annotation.tailrec
 import scala.io.Source
 
 object CodeJam {
@@ -26,4 +25,6 @@ object CodeJam {
     outputFile.flush()
     outputFile.close()
   }
+
+  def solve(sourceFilesLines: Iterator[String]): String = ???
 }
